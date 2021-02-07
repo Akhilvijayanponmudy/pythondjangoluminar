@@ -12,7 +12,6 @@ for lines in f:
     else:
         dict[state]={"state":state,"cured":cured,"death":death,"confirmed":confirmed}
 print(dict)
-
 def print_data(**kwargs):
     print(kwargs)
     state=kwargs["state"]
@@ -27,6 +26,7 @@ def print_data(**kwargs):
         print("state mentioned do not exist")
 #-----------------------------------------------------------
 print_data(state="kerala",prop="confirmed")
+
 
 
 
