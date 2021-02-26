@@ -1,0 +1,58 @@
+body{
+    
+    background-image: url(1777.jpg);
+    height: 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(210, 51, 30);
+}
+
+#nokia{
+background-color: rgb(245, 149, 6);
+border-style: solid;
+border-color: rgb(2, 3, 77);
+border-width: 1px;
+width: 30%;
+background-image:url(nokia_white_logo.png) ;
+}
+#c3{
+    color: rgb(255, 254, 255);
+    text-align: center;
+}
+#samsung{
+    background-color: firebrick;
+    width: 30%;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    background-image: url(1777.jpg);
+}
+#mi{
+    background-color: greenyellow;
+    width: 30%;
+    border-width: 1px;
+    border-color: hotpink;
+    border-style: dotted;
+}
+
+
+.first{
+background-color: lightsalmon;
+    width: 30%;
+    border-width: 1px;
+    border-color: hotpink;
+    border-style: dotted;
+}
+#vivo{
+    text-align: center;
+}
+
+#f41{
+    text-align: center;
+}
+
+#mi10{
+    text-align: center;
+}
+
