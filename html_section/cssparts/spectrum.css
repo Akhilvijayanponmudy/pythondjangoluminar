@@ -1,0 +1,58 @@
+h1{
+    
+    font-family: 'Akaya Telivigala', cursive;
+    margin-left: 270px;
+}
+table
+{
+    margin-top: 60px;
+    margin-left: 120px;
+    padding: 8px;
+}
+
+.red
+{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+td{
+    border-style: solid;
+    border-color: mintcream;
+}
+
+.yellow
+{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(247, 243, 33);
+}
+
+.green
+{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(54, 250, 28);
+}
+
+.blue
+{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(47, 0, 255);
+}
+.violet
+{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(255, 0, 242);
+}
+
+
+
+
+
+
+
+
+
