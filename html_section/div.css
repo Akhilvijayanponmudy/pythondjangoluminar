@@ -1,0 +1,30 @@
+.main{
+    background-color: brown;
+}
+
+.new{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    background-color: cornsilk;
+    width: 300px;
+    height: 500px;
+    
+}
+.new2{
+    position: absolute;
+    left: 500px;
+    top: 340px;
+}
+.new3{
+    position: absolute;
+    left: 500px;
+    top: 380px;
+}
+
+
+
+
+
+
+

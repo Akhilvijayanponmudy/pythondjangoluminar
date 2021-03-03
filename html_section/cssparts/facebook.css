@@ -1,0 +1,54 @@
+.tble{
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    
+}
+
+.log{
+    width: 330px;
+}
+
+
+.link{
+position: relative;
+left: 900px;
+top: 300px;
+}
+.new{
+    position: relative;
+    left: 735px;
+    top: 340px;
+}
+.frm{
+    color: darkgray;
+}
+
+.fb{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 150px;
+    top: 160px;
+    color: rgb(68, 0, 255);
+}
+
+.fir{
+position: absolute;
+left: 150px;
+top: 230px;
+}
+
+.sec{
+position: absolute;
+left: 150px;
+top: 260px;
+}
+
+.main{
+    background-color: rgb(218, 214, 218);
+}
+.clr{
+    background-color: rgb(255, 250, 250);
+}
+
