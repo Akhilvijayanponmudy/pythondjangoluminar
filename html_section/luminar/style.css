@@ -1,0 +1,96 @@
+.topdiv{
+    background-color: #5e068a;
+    color: white;
+    font-size: 13px;
+}
+
+.navba{
+    position: sticky; 
+    background-color: white;
+}
+
+a{
+    
+
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #5e068a;
+    font-weight: 500;
+}
+
+span{
+    color: #5e068a99;
+}
+
+.fontclass{
+    font-size: 14px;
+    line-height: 28px;
+}
+.li{
+    position: relative;
+    left: 500px;
+}
+button{
+position: absolute;
+top: 390px;
+left: 118px;
+
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background-color: #5e068a;
+    color: white;
+}
+
+.top{
+    width:auto;
+    height: 35px;
+}
+
+button:hover{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background-color:white;
+    color:#5e068a;
+}
+
+.cor{
+    position: relative;
+    top: 60px;
+}
+
+.sec3{
+    position: relative;
+    top: 100px;
+}
+
+.sec4{
+    position: relative;
+    top: 155px;
+}
+
+.sec5{
+    position: absolute;
+    top: 1175px;
+    left: 460px;
+}
+.btn2{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background-color: #5e068a;
+    color: white;
+    width: 200px;
+}
