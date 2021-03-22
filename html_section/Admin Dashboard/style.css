@@ -1,0 +1,19 @@
+.sidenav{
+    position: absolute;
+    left: ;
+    top: ;
+    width:300px ;
+    height:1500px ;
+    background-color: rgb(99, 179, 245);
+}
+
+
+
+.navba{
+    position: sticky;
+}
+
+
+.dropdown{
+    color: blue;
+}

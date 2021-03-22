@@ -1,0 +1,16 @@
+.photo{
+    width: 130px;
+    position: relative;
+    left: 140px;
+    top: 100px;
+}
+
+.top{
+    position: relative;
+    top: 170px;
+}
+.div1{
+    position:relative;
+    left: 400px;
+    top: 100px;
+}

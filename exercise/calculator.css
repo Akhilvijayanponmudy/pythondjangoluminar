@@ -1,0 +1,23 @@
+.calc{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+background-color: burlywood;
+width: 20%;
+height:80;
+}
+
+
+
+.but{
+    width: 20%;
+}
+
+.result{
+    width: 90%;
+    
+}
+.buttons{
+    position: relative;
+    top: 15%;
+}
