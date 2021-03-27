@@ -8,6 +8,7 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
+<script src="bank.js"></script>
 <body>
     <h1>Welcome user</h1>
 
@@ -17,15 +18,20 @@
 <div class="col-4">
 
 <div class="form-group">
-    <label for="">Password</label>
-    <input type="password" class="form-control">
-</div>
-<div class="form-group">
-    <label for=""> Amount</label>
+    <label for="">Account Number</label>
     <input type="text" class="form-control">
 </div>
+<div class="form-group">
+    <label for=""> Password</label>
+    <input type="password" class="form-control">
+</div>
 <br>
-<button>Deposit</button> <button>withdraw</button>
+<div class="form-group">
+    <label for=""> Amount</label>
+    <input type="text" class="form-control" id="amt">
+</div>
+<br>
+<button onclick="Bank.deposit()">Deposit</button> <button onclick="Bank.withdrawal()">withdraw</button>
 
 </div>
 <div class="col-4"></div>

@@ -1,23 +1,8 @@
 .calc{
-    position: absolute;
-    left: 40%;
-    top: 10%;
-background-color: burlywood;
-width: 20%;
-height:80;
+    background-color: black;
+    width: 21%;
 }
 
-
-
-.but{
-    width: 20%;
-}
-
-.result{
-    width: 90%;
-    
-}
-.buttons{
-    position: relative;
-    top: 15%;
+.main{
+    padding: 10%;
 }

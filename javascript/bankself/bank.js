@@ -1,3 +1,6 @@
+console.log(localStorage.getItem("accno"));
+
+
 class Bank{
 
 static accountDetails(){
@@ -35,7 +38,13 @@ else{
 
 }
 
-
+static setStorage(accno,password){
+let obj={
+    accno:accno,
+    password:password
+}
+localStorage.setItem("data",JSON.stringify(obj))
+}
 
 
 
@@ -49,6 +58,7 @@ static login(){
 
    }
    else if(user==1){
+       Bank.setStorage(accno,password)
        window.location.href="home.html"
    }
    else if(user==-1){
@@ -56,14 +66,34 @@ static login(){
 
    }
 }
-withdrawal(){
+static withdrawal(){
 
 }
 
-deposit(){
+static deposit(){
+    var data=Bank.accountDetails()
+var accno=document.querySelector("#acno").value
+var password=document.querySelector("#pwd").value
+var amount=document.querySelector("#amt").value
+let user=Bank.authanticate(accno,password)
+if(user==0){
+    alert ("invalid password")
+
+
+}
+else if(user==1){
+    alert("successfully deposited")
+}
+else if(user==-1){
+    alert("invalid account")
+
+}
+}
+
+
+
 
 }
 
 
 
-}
